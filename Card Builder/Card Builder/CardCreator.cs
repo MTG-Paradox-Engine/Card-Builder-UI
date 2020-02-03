@@ -84,5 +84,48 @@ namespace Card_Builder
             LB_Sub.DataSource = card.SubType.ToList();
 
         }
+        private void CB_Power_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            card.power = CB_Power.Text;
+        }
+
+        private void CB_Toughness_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            card.Toughness = CB_Toughness.Text;
+        }
+
+        private void Import_Button_Click(object sender, EventArgs e)
+        {
+            var fileContent = string.Empty;
+            var filePath = string.Empty;
+
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "json files (*.json)|*.json|All files (*.*)|*.*";
+            openFileDialog.FilterIndex = 2;
+            openFileDialog.RestoreDirectory = true;
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                //Read the contents of the file into a stream
+                var fileStream = openFileDialog.OpenFile();
+
+                using (StreamReader reader = new StreamReader(fileStream))
+                {
+                    card = JsonConvert.DeserializeObject<Card>(reader.ReadToEnd());
+
+                    LB_Sub.DataSource = null;
+                    LB_Sub.DataSource = card.SubType.ToList();
+                    LB_Type.DataSource = null;
+                    LB_Type.DataSource = card.SuperType.ToList();
+                    LB_Selc_Colors.DataSource = null;
+                    LB_Selc_Colors.DataSource = card.Colors.ToList();
+                    TB_NAME.Text = card.name;
+                    CB_Power.Text  = card.power;
+                    CB_Toughness.Text  = card.Toughness;
+                }
+            }
+        }
+
+
     }
 }

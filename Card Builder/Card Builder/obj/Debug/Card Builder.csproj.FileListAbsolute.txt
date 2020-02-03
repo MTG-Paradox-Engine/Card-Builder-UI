@@ -24,3 +24,16 @@ D:\Paradox\mtg-paradox-engine\Card Builder\Card Builder\obj\Debug\Card Builder.c
 D:\Paradox\mtg-paradox-engine\Card Builder\Card Builder\obj\Debug\Card Builder.exe
 D:\Paradox\mtg-paradox-engine\Card Builder\Card Builder\obj\Debug\Card Builder.pdb
 D:\Paradox\mtg-paradox-engine\Card Builder\Card Builder\obj\Debug\Card_Builder.CardCreator.resources
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\bin\Debug\Card Builder.exe.config
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\bin\Debug\Card Builder.exe
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\bin\Debug\Card Builder.pdb
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\bin\Debug\Newtonsoft.Json.dll
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\bin\Debug\Newtonsoft.Json.xml
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card Builder.csprojAssemblyReference.cache
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card_Builder.CardCreator.resources
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card_Builder.Properties.Resources.resources
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card Builder.csproj.GenerateResource.cache
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card Builder.csproj.CoreCompileInputs.cache
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card Builder.csproj.CopyComplete
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card Builder.exe
+D:\Paradox\Org\Card-Builder-UI\Card Builder\Card Builder\obj\Debug\Card Builder.pdb
